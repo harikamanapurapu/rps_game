@@ -250,10 +250,12 @@
 }
 .trophy{
     position: absolute;
-    left: 43.52%;
-    right: 40.83%;
-    top: 25.61%;
-    bottom: 47.15%;
+/*     left: 43.52%; */
+/*     right: 40.83%; */
+    right: 50%;
+/*     top: 25.61%; */
+    top: 20%;
+/*     bottom: 47.15%; */
     Width:200.43px;
     Height:201px;
 }
