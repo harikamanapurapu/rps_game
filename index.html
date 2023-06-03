@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="Rps.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="score-board" id="scoreBoard">
+                <div class="names">
+                    <p class="Nam">Rock</p>
+                    <p class="Nam">Paper</p>
+                    <p class="Nam">Scissor</p>
+                </div>
+                <div class="score-cards">
+                    <div class="comp-score-card">
+                        <p class="n">COMPUTER SCORE</p>
+                        <p class="p" id="computerScore">0</p>
+                    </div>
+                    <div class="your-score-card">
+                        <p class="n">YOUR SCORE</p>
+                        <p class="p" id="urScore">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons" id="btnscard">
+                <button class="rock" id="rock"><img src="./images/rock.png" alt="roc"/></button>
+                <div class="hr"></div>
+                <button class="paper" id="paper"><img src="./images/paper.png" alt="pap"/></button>
+                <div class="slantbar1"></div>
+                <div class="slantbar2"></div>
+                <button class="scissor" id="scissors"><img src="./images/scissor.png" alt="sciss"/></button>
+            </div>
+            <div id="result"><p></p></div>
+            <button  id="replay">REPLAY</button>
+            <button id="playAgain">PLAY AGAIN</button>
+            <p id="youPicked">YOU PICKED</p>
+            <p id="pcPicked">PC PICKED</p>
+            <div class="rock1tieup" id="tieuprock1"><img src="./images/rock.png" alt="rock" /></div>
+            <div class="rock2tieup" id="tieuprock2"><img src="./images/rock.png" alt="rock" /></div>
+            <div class="paper1tieup" id="tieuppaper1"><img src="./images/paper.png" alt="paper" /></div>
+            <div class="paper2tieup" id="tieuppaper2"><img src="./images/paper.png" alt="paper" /></div>
+            <div class="scissor1tieup" id="tieupscissor1"><img src="./images/scissor.png" alt="scissor" /></div>
+            <div class="scissor2tieup" id="tieupscissor2"><img src="./images/scissor.png" alt="scissor" /></div>
+            <div class="btns">
+                <button id="rules-button" class="rules-button">RULES</button>
+                <button id="nextBtn">NEXT</button>
+            </div>
+
+            <div id="rules-popup" class="popup">
+                <div class="close" id="close">
+                    &times;
+                </div>
+                <div class="con">
+                    <h2>Games Rules</h2>
+                    <ul class="rules-list">
+                        <li>Rock beats scissors, scissors beat paper, and paper beats rock.</li>
+                        <li>Agree ahead of time whether you’ll count off “rock, paper, scissors, shoot” or just “rock, paper, scissors.”</li>
+                        <li>Use rock, paper, scissors to settle minor decisions or simply play to pass the time</li>
+                        <li>If both players lay down the same hand, each player lays down another hand</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="congratsPage" style="margin-top:100px;">
+                <img src="./images/trophy.png" alt="trophy"  class="trophy"/>
+                <img src="./images/Star 1.png" alt="star1"  class="star1"/>
+                <img src="./images/Star 2.png" alt="star2" class="star2"/>
+                <img src="./images/Star 3.png" alt="star3" class="star3"/>
+                <img src="./images/Star 4.png" alt="star4" class="star4"/>
+                <img src="./images/Star 5.png" alt="star5" class="star5"/>
+                <img src="./images/Star 6.png" alt="star6" class="star6"/>
+                <img src="./images/Star 7.png" alt="star7" class="star7"/>
+                <img src="./images/Star 9.png" alt="star9" class="star9"/>
+                <p class="exclamation">HURRAY!!</p>
+                <p class="won">YOU WON THE GAME</p>
+                <button id="congratsPagePlayAgainBtn">PLAY AGAIN</button>
+            </div>
+        </div>
+    <script src="./Rps.js"></script>
+    </body>
+</html>
